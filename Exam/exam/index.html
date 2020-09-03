@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://db.onlinewebfonts.com/c/fdabdd4713ce66e2bae7e55264aa2f75?family=WeblySleek+UI+Light"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Quotes</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="header-container" class="jumbotron bg-dark rounded-0">
+            <div id="header" class="container text-left text-white">
+                <h1 class="display-2"">Quotes</h1>
+                    <p class=" lead font-italic wider-letter-spacing">
+                    Make your own quote here...
+                    </p>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <input type="text" class="form-control" id="quote" value="" placeholder="Quote..." required>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" id="author" placeholder="Author">
+                </div>
+
+                <div class="col-md-6 mb-3 mx-auto">
+                    <input type="text" class="form-control" id="image_url" placeholder="Image URL">
+                </div>
+                <button id="add-btn" type="button" class="btn btn-dark mr-1 ml-auto mb-4">Add</button>
+            </div>
+
+        </form>
+
+        <div class="col-md-12 px-1">
+            <hr class="bg-dark text-center" style="height: 7px;">
+
+            <div class="row px-1">
+
+                <div id="left-side-col" class="col-md-6 border-right">
+                    <div class="card mb-3 d-none" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4 p-1">
+                                <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-idyllic-459225.jpg&fm=jpg"
+                                    class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-secondary font-italic">Nelson Mandela</p>
+                                    <p class="card-text"><button type="button" class="btn bg-dark text-white">★</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="right-side-col" class="col-md-6 border-left">
+                    <div class="col-md-12 mb-3 bg-dark text-white">
+                        <h2 class="display-4">My favourite</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+    <script>window.onload = addFunctionality();</script>
+</body>
+
+</html>

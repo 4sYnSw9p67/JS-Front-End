@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Bootstrap Blog Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="./index.html">WELCOME TO BOOTSTRAP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./components.html">COMPONENTS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./blog.html">BLOG <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div id="header-container" class="jumbotron">
+            <div id="header" class="container text-center">
+                <h1 class="font-weight-bolder"">Blog</h1>
+                    <p class=" lead font-weight-bold wider-letter-spacing">
+                    Example blog template
+                    </p>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-8 pt-5">
+                    <div class="jumbotron blog">
+                        <h1 class="">First blog post</h1>
+                        <p class="text-secondary">January 1, 2016 by Antonia</p>
+                        <p class="mb-1">This blog post shows a few different types of content that's supported
+                            and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                        <hr class="mt-1 mb-3">
+                        <p>Here are some blog examples. Too see more click here. Also you can find this blog template
+                            in Bootstrap official website examples if you are lazy and don't want to write so much code.
+                            If you don't find it we are sorry.</p>
+                        <p class="text-secondary font-weight-bold">"We can't make beautiful websites without any CSS."
+                        </p>
+                        <p class="font-italic">Antonia Atanasova</p>
+                    </div>
+                    <div class="jumbotron blog">
+                        <h1 class="">Another blog post</h1>
+                        <p class="text-secondary">December 23, 2018 by Kiril</p>
+                        <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet animi
+                            consequuntur,
+                            doloribus ducimus eaque eligendi expedita laborum magni minus molestias nobis non odio
+                            pariatur,
+                            quod quos ratione repellendus reprehenderit?</p>
+                        <hr class="mt-1 mb-3">
+
+                        <p class="text-secondary font-weight-bold">"I don't want to write so much CSS, but I should
+                            because of Antonia..."</p>
+                        <p class="font-italic">Kiril Kirilov</p>
+                    </div>
+                    <p class="ml-4 px-1">
+                        <a class="btn bg-dark text-white" href="#" role="button">Older</a>
+                        <a class="btn bg-dark text-white" href="#" role="button">Newer</a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 px-4">
+
+                    <div class="col-md-12 pt-5">
+                        <h2 class="pt-3">About</h2>
+                        <p>
+                            We can say a lot of thing about Bootstrap but please first read
+                            the documentation and take a look at our presentation and examples.
+                        </p>
+
+                    </div>
+                    <div class="col-md-12">
+                        <h2>Archives</h2>
+                        <div class="px-2">
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold" href="#">March
+                                    2014</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold"
+                                    href="#">February 2014</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold" href="#">January
+                                    2014</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold"
+                                    href="#">December 2013</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold"
+                                    href="#">November 2013</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold" href="#">October
+                                    2013</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold"
+                                    href="#">September 2013</a></div>
+                            <div class="row border px-3 py-2"><a
+                                    class="text-decoration-none font-italic text-dark font-weight-bold" href="#">August
+                                    2013</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <hr />
+        </div>
+        <!-- /container -->
+    </main>
+
+    <footer class="footer fixed-bottom bg-dark mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-white font-weight-bolder">Copyright &copy; SoftUni 2020</span>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
